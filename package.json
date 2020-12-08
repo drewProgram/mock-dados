@@ -1,0 +1,20 @@
+{
+  "name": "mock-mixer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --inspect --ignore-watch node_modules index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "ts-node-dev": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/faker": "^5.1.5",
+    "typescript": "^4.1.2"
+  }
+}
